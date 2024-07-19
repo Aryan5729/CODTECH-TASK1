@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #333;
+}
+
+.collection-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.delete-button {
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.edit-button {
+    color: #ffc107;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.secondary-content {
+    cursor: pointer;
+}
+
+.secondary-content:hover {
+    color: #28a745;
+}
+
+.edit-mode input {
+    border-bottom: 1px solid #ffeb3b;
+}
